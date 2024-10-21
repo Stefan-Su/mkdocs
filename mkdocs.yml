@@ -1,7 +1,9 @@
 site_name: Lieblingsnetz
-site_url: https://site.example
+site_url: https://stefan-su.github.io/mkdocs/
 theme:
   name: material
+  features:
+    - navigation.footer
   palette:
     # Dark Mode
     - scheme: slate
@@ -18,3 +20,13 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+markdown_extensions:
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+
+copyright: Copyright &copy; 2024 Stefan Suter
