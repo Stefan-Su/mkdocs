@@ -15,9 +15,13 @@
 
 ## Code Blocks
 
-EIn Codeblock wird immer mit ``` eingeleitet und abgeschlossen. Alles was sich innerhalb der 3 Zeichen befindet wird als Codeblock dargestellt
+- EIn Codeblock wird immer mit ``` eingeleitet und abgeschlossen. Alles was sich innerhalb der 3 Zeichen befindet wird als Codeblock dargestellt
+- Dem Codeblock kann man einen Titel übergeben. Beispiel den Datenamen. ``` title="datei.py"
+- Auch kann man dem Codeblock übergeben in welcher Programiersprache der Code geschrieben wurde. ```py für Python usw.
+- Zeilenummern kann man auch anzeigen: ```linenums="1"
 
-Dem Codeblock kann man einen Titel übergeben. Beispiel den Datenamen. ``` title="datei.py"
+In dem Beispiel unten: ```py title="add_numbers.py" linenums="1"
+
 
 ```py title="add_numbers.py" linenums="1"
 
