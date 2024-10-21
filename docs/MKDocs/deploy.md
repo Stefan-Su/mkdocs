@@ -17,4 +17,6 @@ Solange das nicht abgebrochen wird, wird bei jeder änderung die Seite lokal akt
 3. Terminal öffnen
 4. in das Verzeichnis wechseln
 5. ```source venv/bin/activate```
-6. 
+6. ```git add .``` --< Fügt alle änderungen dazu
+7. ```git commit -m "kommentar"```
+8. ```git push origin master``` --> Push alle änderung zu Github.

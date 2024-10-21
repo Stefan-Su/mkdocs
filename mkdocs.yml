@@ -2,8 +2,10 @@ site_name: Lieblingsnetz
 site_url: https://stefan-su.github.io/mkdocs/
 theme:
   name: material
+  language: de
   features:
     - navigation.footer
+    #- navigation.sections
   palette:
     # Dark Mode
     - scheme: slate
