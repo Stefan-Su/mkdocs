@@ -1,3 +1,3 @@
 # Home
-Hier gibt es nicht szu sehen
+Hier gibt es nichts zu sehen
 

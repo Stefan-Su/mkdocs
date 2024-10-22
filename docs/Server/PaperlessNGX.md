@@ -1,5 +1,2 @@
 # PaperlessNGX
 
-Test
-
-Test2
