@@ -30,5 +30,3 @@ markdown_extensions:
 - pymdownx.inlinehilite
 - pymdownx.snippets
 - pymdownx.superfences
-
-copyright: Copyright &copy; 2024 Stefan Suter
