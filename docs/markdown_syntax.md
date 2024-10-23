@@ -2,59 +2,62 @@
 
 ## Content Tabs
 
-```
-## Content Tabs
+=== "Code"
 
-This is some examples of content tabs.
+    ```
+    This is some examples of content tabs.
 
-### Generic Content
+    === "Plain text"
 
-=== "Plain text"
+        This is some plain text
 
-    This is some plain text
+    === "Unordered list"
 
-=== "Unordered list"
+        * First item
+        * Second item
+        * Third item
 
-    * First item
-    * Second item
-    * Third item
+    === "Ordered list"
 
-=== "Ordered list"
+        1. First item
+        2. Second item
+        3. Third item
+    ```
+=== "Darstellung"
+    This is some examples of content tabs.
 
-    1. First item
-    2. Second item
-    3. Third item
-```
+    === "Plain text"
 
-### Beispiel
-=== "Plain text"
+        This is some plain text
 
-    This is some plain text
+    === "Unordered list"
 
-=== "Unordered list"
+        * First item
+        * Second item
+        * Third item
 
-    * First item
-    * Second item
-    * Third item
+    === "Ordered list"
 
-=== "Ordered list"
+        1. First item
+        2. Second item
+        3. Third item
 
-    1. First item
-    2. Second item
-    3. Third item
+--- 
 
 ## Links
 
 ### Intern
-```[Markdown Syntax](https://stefan-su.github.io/mkdocs/markdown_syntax/)```
+```[Markdown Syntax](markdown_syntax)```
 
-[Markdown Syntax](https://stefan-su.github.io/mkdocs/markdown_syntax/)
+[Markdown Syntax](../markdown_syntax)
 
 ### Extern
 
 ```[Markdown Syntax](https://links.zur.seite)```
 
 [Markdown Syntax](https://links.zur.seite)
+
+---
 
 ## Code Blocks
 
@@ -76,3 +79,5 @@ def add_two_numbers(num1, num2):
 result = add_two_numbers(5, 3)
 print('The sum is:', result)
 ```
+
+---
