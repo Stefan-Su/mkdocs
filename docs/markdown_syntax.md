@@ -1,11 +1,54 @@
 # Markdown Syntax
 
+## Content Tabs
+
+```
+## Content Tabs
+
+This is some examples of content tabs.
+
+### Generic Content
+
+=== "Plain text"
+
+    This is some plain text
+
+=== "Unordered list"
+
+    * First item
+    * Second item
+    * Third item
+
+=== "Ordered list"
+
+    1. First item
+    2. Second item
+    3. Third item
+```
+
+### Beispiel
+=== "Plain text"
+
+    This is some plain text
+
+=== "Unordered list"
+
+    * First item
+    * Second item
+    * Third item
+
+=== "Ordered list"
+
+    1. First item
+    2. Second item
+    3. Third item
+
 ## Links
 
 ### Intern
-```[Markdown Syntax](/mkdocs/markdown_syntax/)```
+```[Markdown Syntax](https://stefan-su.github.io/mkdocs/markdown_syntax/)```
 
-[Markdown Syntax](/mkdocs/markdown_syntax/)
+[Markdown Syntax](https://stefan-su.github.io/mkdocs/markdown_syntax/)
 
 ### Extern
 
